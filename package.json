@@ -10,6 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "lint:style": "stylelint **/*.{css,scss,sass}",
     "lint:style:fix": "stylelint **/*.{css,scss,sass} --fix",
     "release": "standard-version",

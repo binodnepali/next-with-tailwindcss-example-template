@@ -68,6 +68,26 @@ npm run start
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Lint
+
+```bash
+# yarn
+yarn lint
+
+# npm
+npm run lint
+```
+
+### Lint fix
+
+```bash
+# yarn
+yarn lint:fix
+
+# npm
+npm run lint:fix
+```
+
 ### Lint style
 
 ```bash
