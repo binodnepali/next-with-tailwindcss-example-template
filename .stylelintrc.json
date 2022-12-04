@@ -4,7 +4,8 @@
     "stylelint-config-prettier-scss",
     "stylelint-config-standard",
     "stylelint-config-prettier",
-    "stylelint-config-rational-order"
+    "stylelint-config-rational-order",
+    "stylelint-config-tailwindcss/scss"
   ],
   "plugins": ["stylelint-order", "stylelint-config-rational-order/plugin"],
   "rules": {
