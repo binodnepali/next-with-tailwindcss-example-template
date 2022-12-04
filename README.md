@@ -2,13 +2,11 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-An example template made using [Next.js and Typescript](https://nextjs.org/docs) to start a new project. The template is setup with [Prettier](https://prettier.io/docs/en/install.html), [ESLint](https://eslint.org/docs/user-guide/getting-started), [StyleLint](https://stylelint.io/user-guide/get-started) and [Lint Staged](https://github.com/okonet/lint-staged).
-
-This template use next.js version 12.3.1. Read more about [release](https://github.com/vercel/next.js/releases/tag/v12.3.1)
+This template was scaffolded from [nextjs-with-typescript-example-template](https://github.com/binodnepali/nextjs-with-typescript-example-template). And this template adds [tailwindcss](https://tailwindcss.com/) so that you can  start a new project using [Next.js](https://nextjs.org/) and [tailwindcss](https://tailwindcss.com/).
 
 ## Why this template
 
-I made this template because I have to set up every time Prettier, ESLint, StyleLint and Lint Staged for my new next.js projects. And I thought this might be useful for developers who are looking for configuration or starter or example templates.
+This template includes pre-installed plugins suchas [prettier](https://prettier.io/), [eslint](https://eslint.org/), [stylelint](https://stylelint.io/), [lint-staged](https://github.com/okonet/lint-staged), [commitlint](https://commitlint.js.org/) and [standard version](https://github.com/conventional-changelog/standard-version) which helps to maintain project code quality.
 
 ## Before getting started
 
@@ -18,20 +16,20 @@ Make sure you have installed [Node.js 12.22.0 or higher](https://nodejs.org/en/)
 
 You can setup this project using npm or yarn package managers.
 
-> I would recommend to installed or enabled [yarn](https://yarnpkg.com/getting-started) package manager on your machine.
+> I would recommend to installed or enabled [yarn 3.1.1 or higher](https://yarnpkg.com/getting-started) package manager on your machine.
 
 ### Clone repo
 
 ```bash
-git clone https://github.com/binodnepali/nextjs-with-typescript-example-template.git
+git clone https://github.com/binodnepali/nextjs-with-tailwindcss-example-template.git
 #or
-git clone git@github.com:binodnepali/nextjs-with-typescript-example-template.git
+git clone git@github.com:binodnepali/nextjs-with-tailwindcss-example-template.git
 ```
 
 ### Navigate to cloned repo
 
 ```bash
-cd nextjs-with-typescript-example-template
+cd nextjs-with-tailwindcss-example-template
 ```
 
 ### Install dependencies
@@ -82,6 +80,16 @@ yarn commit
 npm run commit
 ```
 
+### Run first release
+
+This will create initial release.
+
+```bash
+yarn release:first
+#or
+npm run release:first
+```
+
 ### Run release
 
 Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/) in your repository. And when you're ready to release, run below scripts.
@@ -103,4 +111,5 @@ To learn more about Next.js, ESLint, Prettier, StyleLint and lint-staged, take a
 * [ESLint Setup](https://eslint.org/docs/user-guide/getting-started) - Learn about how to ESLint
 * [StyleLint Setup](https://stylelint.io/user-guide/get-started) - Learn about how to setup StyleLint
 * [Lint Staged Setup](https://github.com/okonet/lint-staged) - Learn about how to setup lint-staged
+* [commitlint](https://commitlint.js.org/) - Learn about how to use commit lint
 * [Standard Version](https://github.com/conventional-changelog/standard-version) - Learn about how to setup standar version

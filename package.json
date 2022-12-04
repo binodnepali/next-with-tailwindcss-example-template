@@ -11,6 +11,7 @@
     "build": "next build",
     "start": "next start",
     "release": "standard-version",
+    "release:first": "yarn release --first-release",
     "prepare": "husky install",
     "commit": "git-cz"
   },
