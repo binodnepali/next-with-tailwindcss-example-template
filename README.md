@@ -1,4 +1,4 @@
-# Next.js with typescript example template
+# Next.js with tailwindcss example template
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -67,6 +67,26 @@ npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Lint style
+
+```bash
+# yarn
+yarn lint:style
+
+# npm
+npm run lint:style
+```
+
+### Lint style fix
+
+```bash
+# yarn
+yarn lint:style:fix
+
+# npm
+npm run lint:style:fix
+```
 
 ### Commit
 
