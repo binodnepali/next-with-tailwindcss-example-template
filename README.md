@@ -14,9 +14,7 @@ Make sure you have installed [Node.js 12.22.0 or higher](https://nodejs.org/en/)
 
 ## Getting started
 
-You can setup this project using npm or yarn package managers.
-
-> I would recommend to installed or enabled [yarn 3.1.1 or higher](https://yarnpkg.com/getting-started) package manager on your machine.
+You can setup this project using [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/) package managers.
 
 ### Clone repo
 
@@ -35,6 +33,8 @@ cd nextjs-with-tailwindcss-example-template
 ### Install dependencies
 
 ```bash
+pnpm i
+#or
 yarn install
 #or
 npm install
@@ -43,6 +43,8 @@ npm install
 ### Start development server
 
 ```bash
+pnpm dev
+#or
 yarn dev
 #or
 npm run dev
@@ -53,6 +55,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Build for production
 
 ```bash
+pnpm build
+#or
 yarn build
 #or
 npm run build
@@ -61,6 +65,8 @@ npm run build
 ### Start preview server after build
 
 ```bash
+pnpm start
+#or
 yarn start
 #or
 npm run start
@@ -71,40 +77,40 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Lint
 
 ```bash
-# yarn
+pnpm lint
+#or
 yarn lint
-
-# npm
+#or 
 npm run lint
 ```
 
 ### Lint fix
 
 ```bash
-# yarn
+pnpm lint:fix
+#or
 yarn lint:fix
-
-# npm
+#or 
 npm run lint:fix
 ```
 
 ### Lint style
 
 ```bash
-# yarn
+pnpm lint:style
+#or
 yarn lint:style
-
-# npm
+#or 
 npm run lint:style
 ```
 
 ### Lint style fix
 
 ```bash
-# yarn
+pnpm lint:style:fix
+#or
 yarn lint:style:fix
-
-# npm
+#or 
 npm run lint:style:fix
 ```
 
@@ -113,10 +119,10 @@ npm run lint:style:fix
 Open interactive terminal to write conventional commit message
 
 ```bash
-# yarn
+pnpm commit
+#or
 yarn commit
-
-# npm
+#or 
 npm run commit
 ```
 
@@ -125,6 +131,8 @@ npm run commit
 This will create initial release.
 
 ```bash
+pnpm release:first
+#or
 yarn release:first
 #or
 npm run release:first
@@ -135,6 +143,8 @@ npm run release:first
 Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/) in your repository. And when you're ready to release, run below scripts.
 
 ```bash
+pnpm release
+#or
 yarn release
 #or
 npm run release
