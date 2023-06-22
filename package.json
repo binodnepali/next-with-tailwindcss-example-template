@@ -1,7 +1,7 @@
 {
   "name": "nextjs-with-tailwindcss-example-template",
   "description": "A Next.js project with Tailwind CSS",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "engines": {
     "node": ">=16.8"
